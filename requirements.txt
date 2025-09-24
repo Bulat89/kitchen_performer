@@ -1,3 +1,5 @@
-mysql-connector-python
+mysql-connector-python==8.4.0
+# Версия python-telegram-bot закреплена на 13.7, так как обновление до v20+
+# требует значительных изменений в коде из-за обратной несовместимости API.
 python-telegram-bot==13.7
-python-dotenv
+python-dotenv==1.0.1
